@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Input } from '@/components/ui/input'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
       <h1 className='text-xl font-bold'>Login</h1>
+      <Input placeholder='Enter your Username' />
     </>
   )
 }
